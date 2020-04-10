@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
             RequestParams requestParams = new RequestParams();
             
             string startDate = dateTimePicker1.Value.ToShortDateString();
-            string endDate = dateTimePicker1.Value.ToShortDateString();
+            string endDate = dateTimePicker.Value.ToShortDateString();
             string patientId = textBox1.Text;
             string idNum = textBox2.Text;
 
